@@ -1,0 +1,51 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos
+.venv/
+venv/
+env/
+conda-meta/
+
+# VS Code y sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Variables sensibles
+.env
+.env.*
+*.pem
+*.key
+
+# Datos originales y procesados
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel y exportaciones potencialmente licenciadas
+*.xlsx
+*.xls
+*.xlsb
+
+# Archivos temporales
+*.tmp
+*.log
+~$*
+
+# Informes internos
+reports/*.docx

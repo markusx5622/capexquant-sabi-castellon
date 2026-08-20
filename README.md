@@ -82,6 +82,7 @@ To run the complete private suite when the licensed SABI workbook is available:
 
 ```bash
 python -m pytest -v
+```
 
 The current local suite contains **315 passing tests**.
 
@@ -342,7 +343,7 @@ The core version includes:
 - [x] Executed public notebook
 - [x] Technical documentation
 - [x] 315 passing tests
-- [ ] Public continuous integration workflow
+- [x] Public continuous integration workflow
 - [ ] Final repository audit and version 1.0 release
 
 ## Author

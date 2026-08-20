@@ -75,8 +75,13 @@ Analytical tables created: 7
 ### 5. Run the tests
 
 ```bash
-python -m pytest -v
+python -m pytest -m "not private_data" -v
 ```
+
+To run the complete private suite when the licensed SABI workbook is available:
+
+```bash
+python -m pytest -v
 
 The current local suite contains **315 passing tests**.
 
@@ -273,7 +278,7 @@ See [`data/README.md`](data/README.md) for the data-use policy.
 - **JSON and CSV**: portable metadata and analytical exports
 - **SHA-256**: reproducibility and file-integrity verification
 - **Git and GitHub**: version control and public project distribution
-- **GitHub Actions**: planned continuous integration
+- **GitHub Actions**: automated public testing and synthetic pipeline validation on Python 3.12
 
 ## Technical documentation
 

@@ -1,8 +1,8 @@
-﻿pandas
-numpy
-matplotlib
-openpyxl
-jupyter
-scipy
-scikit-learn
-pytest
+﻿pandas>=2.2,<3.0
+numpy>=2.0,<3.0
+matplotlib>=3.9,<4.0
+openpyxl>=3.1,<4.0
+jupyter>=1.1,<2.0
+scipy>=1.14,<2.0
+scikit-learn>=1.5,<2.0
+pytest>=8.3,<10.0

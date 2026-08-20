@@ -7,6 +7,8 @@
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+![CapexQuant Corporate Financial Analytics Pipeline](reports/figures/pipeline_banner.png)
+
 CapexQuant SABI Castellón is a reproducible corporate financial analytics pipeline that transforms heterogeneous company-level data into a traceable analytical layer through deterministic cleaning, financial feature engineering, data-quality controls, business-risk signals, analytical summaries, rankings, reproducible exports, public visualizations and an interactive Streamlit dashboard.
 
 This repository is designed for corporate finance analysts, data engineers and recruitment evaluators who require rigorous data lineage and reproducible methodologies when working with unstructured or proprietary corporate data. The public repository runs entirely on a deterministic synthetic dataset, ensuring complete reproducibility without redistributing confidential or licensed SABI records.

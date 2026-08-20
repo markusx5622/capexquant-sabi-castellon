@@ -1,4 +1,20 @@
-﻿# Data policy
+﻿## Licensing scope
+
+The MIT License in the repository root applies to the original source code
+and documentation created for CapexQuant.
+
+The license does not apply to the original SABI workbook, licensed database
+content, third-party proprietary information, trademarks or private
+company-level derived datasets.
+
+The original SABI workbook and private derived data are not distributed
+through this repository.
+
+The public synthetic dataset was independently generated for demonstration,
+testing and reproducibility. It contains no SABI data, real companies or
+personal information.
+
+# Data policy
 
 The original SABI Excel export is intentionally excluded from version control.
 

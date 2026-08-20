@@ -262,6 +262,19 @@ contains_personal_data: false
 
 See [`data/README.md`](data/README.md) for the data-use policy.
 
+## Technology stack
+
+- **Python**: core pipeline and command-line execution
+- **Pandas**: tabular transformation, validation and aggregation
+- **NumPy**: deterministic simulation and numerical operations
+- **Matplotlib**: reproducible financial visualizations
+- **Pytest**: unit, integration and regression testing
+- **Jupyter**: executed public analytical notebook
+- **JSON and CSV**: portable metadata and analytical exports
+- **SHA-256**: reproducibility and file-integrity verification
+- **Git and GitHub**: version control and public project distribution
+- **GitHub Actions**: planned continuous integration
+
 ## Technical documentation
 
 - [Architecture](docs/architecture.md)

@@ -1,0 +1,20 @@
+{
+  "dataset_name": "CapexQuant synthetic companies",
+  "dataset_type": "fully_synthetic",
+  "contains_sabi_data": false,
+  "contains_real_companies": false,
+  "contains_personal_data": false,
+  "generation_method": "Deterministic statistical simulation",
+  "random_seed": 20260820,
+  "company_count": 120,
+  "column_count": 10,
+  "sha256": "4a8cb71642ad87a3f27a3f230eec37bc8707f47847c72e901d76a21549501701",
+  "currency_unit": "thousand_eur",
+  "intended_use": "Public demonstration, testing and recruitment review",
+  "limitations": [
+    "Not representative of the Castellón economy.",
+    "Not suitable for credit or investment decisions.",
+    "Does not reproduce confidential company records.",
+    "Financial relationships are simplified."
+  ]
+}

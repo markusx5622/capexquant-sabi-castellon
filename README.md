@@ -1,10 +1,32 @@
 # CapexQuant SABI Castellón
 
-**A tested and reproducible financial-data pipeline for heterogeneous company information.**
+**A reproducible corporate financial analytics pipeline for data quality, financial feature engineering and business screening.**
 
-CapexQuant validates, cleans and analyses company-level financial data while preserving data lineage, distinguishing data-quality issues from business-risk signals, and preventing the redistribution of licensed SABI records.
+[![Public pipeline tests](https://github.com/markusx5622/capexquant-sabi-castellon/actions/workflows/tests.yml/badge.svg)](httpsapexquant-sabi-castellon/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/markusx5622/capexquant-sabihttps://github.com/markusx5622/capexquant-sabi-castellon/releases/latest)
+[![Python](https://img.shields.io/badge/PythonB?logo=python&logoColor=white](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2E)
 
-The repository includes a fully synthetic public dataset, so the complete public workflow can be executed without access to the private workbook.
+CapexQuant SABI Castellón transforms heterogeneous company-level financial data into a traceable analytical layer with deterministic cleaning, financial metrics, quality controls, rankings, reproducible exports and public visualizations.
+
+The public repository runs entirely on a deterministic synthetic dataset. Licensed SABI data remains private and is never redistributed.
+
+## Project navigation
+
+- #business-problem
+- #architecture
+- [Public demonstration
+- #financial-methodology
+- [Data-quality framework
+- #testing-and-reproducibility
+- [technical-documentation
+- [Limitations](#
+
+## Public demonstration
+
+The chart below is generated exclusively from the repository's synthetic public dataset.
+
+reports/figures/revenue_concentration.png
 
 ## Why this project exists
 

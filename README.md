@@ -344,7 +344,7 @@ The core version includes:
 - [x] Technical documentation
 - [x] 315 passing tests
 - [x] Public continuous integration workflow
-- [ ] Final repository audit and version 1.0 release
+- [x] Final repository audit and v1.0.1 audited release
 
 ## Author
 

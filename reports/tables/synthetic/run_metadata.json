@@ -1,0 +1,20 @@
+{
+  "analytical_table_count": 7,
+  "business_risk_signal_count": 61,
+  "contains_sabi_data": false,
+  "currency_unit": "thousand_eur",
+  "data_quality_issue_count": 4,
+  "dataset_type": "fully_synthetic",
+  "final_column_count": 36,
+  "generated_at_utc": "2026-08-20T07:36:51.017358+00:00",
+  "limitations": [
+    "The synthetic source is not representative of the Castellón economy.",
+    "Results must not be used for credit, investment or legal decisions.",
+    "Adverse legal status is inferred from explicit company-name markers."
+  ],
+  "project": "CapexQuant SABI Castellón",
+  "public_distribution_allowed": true,
+  "row_count": 120,
+  "source": "synthetic",
+  "source_column_count": 10
+}

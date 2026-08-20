@@ -1,0 +1,50 @@
+{
+  "file_count": 9,
+  "files": [
+    {
+      "filename": "companies_quality_controlled.csv",
+      "sha256": "202c4f2ae06d5b351acf17f9504754062d6edab28f7baf93a83b8c5813a76ec2",
+      "size_bytes": 49141
+    },
+    {
+      "filename": "company_ranking.csv",
+      "sha256": "d252816d8e51447c7db8aedd8e62f5e450ff25a260f78c9bf4a7f7f575aaf29c",
+      "size_bytes": 2744
+    },
+    {
+      "filename": "coverage.csv",
+      "sha256": "ea260cc7b5b8e400f353a968ab1909e8401a07c78b43fde053330b13115edc81",
+      "size_bytes": 224
+    },
+    {
+      "filename": "municipality_summary.csv",
+      "sha256": "07236aef78afd180c530360e0583870e73088d429d1dff2db9048aece259bb6a",
+      "size_bytes": 915
+    },
+    {
+      "filename": "quality_summary.csv",
+      "sha256": "cee33243841875801a59235354222d35bddf4d51cb2b7001df79012eef39c87d",
+      "size_bytes": 394
+    },
+    {
+      "filename": "revenue_concentration.csv",
+      "sha256": "deb5e4e0197fd78efe892f58aa8878b393d0099acae29679b9c5d864b7df4972",
+      "size_bytes": 302
+    },
+    {
+      "filename": "revenue_percentiles.csv",
+      "sha256": "7e1ab7c3a03144d3d156383a05ee52cfb99327e0550700fbc37f517e86075f12",
+      "size_bytes": 155
+    },
+    {
+      "filename": "run_metadata.json",
+      "sha256": "1938d39a37edf16c14335482fc374acad097015e1d603ca56e0aac8995bc5fb0",
+      "size_bytes": 719
+    },
+    {
+      "filename": "scope_comparison.csv",
+      "sha256": "7be2873f2d403fc0ce37261b45413ba1000282b8dd3a8822329886b9a0971027",
+      "size_bytes": 718
+    }
+  ]
+}

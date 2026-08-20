@@ -1,0 +1,5 @@
+scope,company_count,employee_count,revenue_available_count,ebitda_available_count,revenue_total_k_eur,ebitda_total_k_eur,median_employees,median_revenue_k_eur,median_ebitda_k_eur,median_revenue_growth,median_ebitda_margin,negative_ebitda_count,revenue_decline_count
+all,120,3872,117,118,468238.3235,45573.78644,23,2700.878333,227.5421535,0.03274153507,0.1061902618,21,44
+eligible,116,3751,116,116,462036.0456,44186.39763,23,2699.148373,227.5421535,0.03274153507,0.1054773804,21,44
+no_adverse_eligible,109,3527,109,109,439576.5692,42110.00057,23,2703.848695,223.866974,0.03298601559,0.1061902618,20,40
+no_adverse_marker,112,3638,110,111,445778.8471,43497.38938,23,2712.444303,223.866974,0.03298601559,0.106985722,20,40

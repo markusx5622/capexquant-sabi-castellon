@@ -1,0 +1,11 @@
+indicator,record_count,record_percentage
+has_incomplete_financial_data,4,0.03333333333
+has_negative_latest_revenue,0,0
+has_zero_latest_revenue,0,0
+has_extreme_ebitda_margin,0,0
+potential_duplicate,0,0
+has_adverse_legal_status,8,0.06666666667
+has_negative_latest_ebitda,21,0.175
+has_revenue_decline,44,0.3666666667
+has_data_quality_issue,4,0.03333333333
+has_business_risk_signal,61,0.5083333333

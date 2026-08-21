@@ -14,14 +14,17 @@ from src.pipeline import PipelineResult
 
 def test_view_names_are_defined() -> None:
     """Verify that all standard view names are defined and non-empty."""
-    assert len(VIEW_NAMES) >= 7
+    assert len(VIEW_NAMES) == 11
     assert "Overview & Scope Comparison" in VIEW_NAMES
     assert "Variable Coverage" in VIEW_NAMES
     assert "Data Quality & Business Risk" in VIEW_NAMES
     assert "Revenue Concentration" in VIEW_NAMES
     assert "Revenue Percentiles" in VIEW_NAMES
     assert "Company Rankings" in VIEW_NAMES
-    assert "Municipality Analysis" in VIEW_NAMES
+    assert "Municipality Analysis & Treemap" in VIEW_NAMES
+    assert "4D Quantitative Positioning" in VIEW_NAMES
+    assert "🧪 Stress Testing & Scenario Lab" in VIEW_NAMES
+    assert "🏢 Company Factsheet & Deep-Dive" in VIEW_NAMES
     assert "Company Explorer" in VIEW_NAMES
 
 

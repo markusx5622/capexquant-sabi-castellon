@@ -22,8 +22,8 @@ This repository is designed for corporate finance analysts, data engineers and r
 - **Corporate financial feature engineering:** Safe division formulas for year-over-year revenue growth, EBITDA margin, and employee productivity metrics without distorted zero imputations.
 - **Separation of data-quality issues and business-risk signals:** Clear distinction between data integrity defects and valid economic distress conditions.
 - **Reproducible synthetic public dataset:** 120 fictional company records generated from a fixed random seed with verified SHA-256 checksums.
-- **Interactive Streamlit analytics dashboard:** Eight dedicated analytical views, dynamic filters, KPI scorecards and instant CSV/JSON exports. Available live at [capexquant.streamlit.app](https://capexquant.streamlit.app/).
-- **Automated tests and GitHub Actions:** Comprehensive test suite with 162 public tests executed in Python 3.12 CI, alongside export manifests and standalone figures.
+- **Institutional Streamlit financial terminal:** Eleven dedicated analytical views, dynamic Plotly charts (Lorenz curves, 4D quadrant positioning, geographic treemaps), macro **What-If Stress Testing Lab**, **Company Factsheets** with 5D radar benchmarks, and automated **Executive Intelligence Briefings**. Available live at [capexquant.streamlit.app](https://capexquant.streamlit.app/).
+- **Automated tests and GitHub Actions:** Comprehensive test suite executed in Python 3.12 CI, alongside export manifests and standalone figures.
 
 ## Public demonstration
 

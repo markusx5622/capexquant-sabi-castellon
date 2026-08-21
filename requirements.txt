@@ -7,3 +7,4 @@ scipy>=1.14,<2.0
 scikit-learn>=1.5,<2.0
 pytest>=8.3,<10.0
 streamlit>=1.30,<2.0
+plotly>=5.20,<6.0

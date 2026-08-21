@@ -423,7 +423,7 @@ def create_health_gauge_chart(
             ),
             gauge=dict(
                 axis=dict(range=[0, 100], tickwidth=1, tickcolor="#94A3B8"),
-                bar=dict(color=grade_color, width=10),
+                bar=dict(color=grade_color, thickness=0.8),
                 bgcolor="#F1F5F9",
                 borderwidth=1,
                 bordercolor="#CBD5E1",

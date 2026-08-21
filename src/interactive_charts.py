@@ -9,15 +9,15 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-# Design tokens
+# Academic Publication Design Tokens (Oxford / NBER style)
 CHART_THEME = "plotly_white"
-PRIMARY_COLOR = "#1E88E5"
-SECONDARY_COLOR = "#0D9488"  # Teal
-ACCENT_COLOR = "#F59E0B"     # Amber
-DANGER_COLOR = "#EF4444"     # Red
-SUCCESS_COLOR = "#10B981"    # Emerald
-GRID_COLOR = "#E2E8F0"
-FONT_FAMILY = "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+PRIMARY_COLOR = "#1E3A8A"    # Deep Oxford Navy
+SECONDARY_COLOR = "#0284C7"  # Cambridge Cyan/Blue
+ACCENT_COLOR = "#D97706"     # Amber
+DANGER_COLOR = "#DC2626"     # Crimson
+SUCCESS_COLOR = "#059669"    # Forest Emerald
+GRID_COLOR = "#F1F5F9"
+FONT_FAMILY = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
 
 
 def apply_standard_layout(

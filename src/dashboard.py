@@ -52,38 +52,40 @@ VIEW_NAMES: Final[list[str]] = [
 
 
 def inject_custom_theme_css() -> None:
-    """Inject institutional financial terminal CSS styling with glassmorphism and modern cards."""
+    """Inject institutional academic and quantitative research CSS styling."""
     st.markdown(
         """
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
         
         html, body, [class*="css"] {
-            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #0F172A;
         }
         
-        /* Metric Card Container Styling */
+        /* Institutional Research Metric Card */
         div[data-testid="stMetric"] {
-            background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%);
+            background-color: #FFFFFF;
             border: 1px solid #E2E8F0;
-            border-radius: 10px;
+            border-top: 3px solid #1E3A8A;
+            border-radius: 8px;
             padding: 14px 18px;
-            box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04);
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
             transition: all 0.2s ease-in-out;
         }
         
         div[data-testid="stMetric"]:hover {
-            border-color: #3B82F6;
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.12);
+            border-color: #1E3A8A;
+            box-shadow: 0 4px 12px rgba(30, 58, 138, 0.08);
             transform: translateY(-1px);
         }
         
         div[data-testid="stMetricLabel"] {
-            font-size: 0.82rem !important;
+            font-size: 0.8rem !important;
             font-weight: 600 !important;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: #64748B !important;
+            letter-spacing: 0.06em;
+            color: #475569 !important;
         }
         
         div[data-testid="stMetricValue"] {
@@ -93,42 +95,47 @@ def inject_custom_theme_css() -> None:
             color: #0F172A !important;
         }
         
-        /* Badge Pill Utilities */
+        /* Academic Note & Lemma Callout Boxes */
+        .academic-note {
+            background-color: #F8FAFC;
+            border-left: 4px solid #1E3A8A;
+            border-radius: 4px;
+            padding: 14px 18px;
+            margin: 12px 0 20px 0;
+            font-size: 0.92rem;
+            color: #334155;
+            line-height: 1.6;
+        }
+        
+        /* Academic Badge Pills */
         .pill-badge {
             display: inline-block;
-            padding: 4px 10px;
-            border-radius: 9999px;
+            padding: 3px 10px;
+            border-radius: 4px;
             font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.04em;
         }
-        .pill-emerald { background-color: #DCFCE7; color: #15803D; border: 1px solid #BBF7D0; }
-        .pill-amber { background-color: #FEF3C7; color: #B45309; border: 1px solid #FDE68A; }
-        .pill-rose { background-color: #FFE4E6; color: #BE123C; border: 1px solid #FECDD3; }
-        .pill-blue { background-color: #DBEAFE; color: #1D4ED8; border: 1px solid #BFDBFE; }
+        .pill-emerald { background-color: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; }
+        .pill-amber { background-color: #FFFBEB; color: #92400E; border: 1px solid #FDE68A; }
+        .pill-rose { background-color: #FFF1F2; color: #9F1239; border: 1px solid #FECDD3; }
+        .pill-blue { background-color: #EFF6FF; color: #1E40AF; border: 1px solid #BFDBFE; }
         
-        /* Glassmorphic Highlights Box */
-        .glass-card {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95));
-            border: 1px solid #E2E8F0;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-        }
-        
-        /* Styled Buttons */
+        /* Styled Academic Download Buttons */
         div.stDownloadButton > button {
-            border-radius: 8px !important;
+            border-radius: 6px !important;
             font-weight: 600 !important;
+            font-size: 0.85rem !important;
             border: 1px solid #CBD5E1 !important;
-            transition: all 0.2s ease !important;
+            background-color: #FFFFFF !important;
+            color: #1E3A8A !important;
+            transition: all 0.15s ease-in-out !important;
         }
         div.stDownloadButton > button:hover {
-            border-color: #1E88E5 !important;
-            color: #1E88E5 !important;
-            background-color: #EFF6FF !important;
+            border-color: #1E3A8A !important;
+            background-color: #F0F4F8 !important;
+            color: #1E3A8A !important;
         }
         </style>
         """,

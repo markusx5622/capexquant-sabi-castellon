@@ -288,9 +288,9 @@ The notebook:
 
 The test suite enforces full code correctness, edge-case coverage and data-quality validation:
 
-- **162 public tests** executed automatically in CI without requiring private files.
+- **170 public tests** executed automatically in CI without requiring private files.
 - **164 private tests** deselected during public runs via pytest markers (`-m "not private_data"`).
-- **326 total collected tests** across public unit, integration, visualization, dashboard and private data validation suites.
+- **334 total collected tests** across public unit, integration, visualization, interactive terminal and private data validation suites.
 - **Python 3.12 GitHub Actions workflow:** Fully tests pipeline execution, validates table schemas, verifies figures, and asserts the absence of proprietary spreadsheets.
 
 Workflow configuration is maintained in [`.github/workflows/tests.yml`](.github/workflows/tests.yml).
@@ -300,7 +300,7 @@ Workflow configuration is maintained in [`.github/workflows/tests.yml`](.github/
 ```text
 capexquant-sabi-castellon/
 ├── .github/workflows/       # GitHub Actions CI workflow (tests.yml)
-├── .streamlit/              # Streamlit configuration settings
+├── .streamlit/              # Streamlit configuration settings (config.toml)
 ├── data/
 │   ├── reference/           # Auditable municipality reference mapping
 │   ├── sample/              # Public synthetic dataset and metadata
@@ -310,8 +310,8 @@ capexquant-sabi-castellon/
 ├── reports/
 │   ├── figures/             # Reproducible analytical visualizations
 │   └── tables/synthetic/    # Exported public analytical tables and manifests
-├── src/                     # Modular Python source code and dashboard logic
-├── tests/                   # Automated pytest suite and fixtures
+├── src/                     # Modular Python pipeline, Plotly charts, stress testing & dashboard
+├── tests/                   # Automated pytest suite (unit, integration, stress testing)
 ├── .gitignore               # Strict exclusion rules for private data and caches
 ├── app.py                   # Streamlit web application entrypoint
 ├── LICENSE                  # MIT License
@@ -353,10 +353,14 @@ Comprehensive documentation is available in the [`docs/`](docs/) directory:
 - [x] Analytical tables and rankings
 - [x] Reproducible exports and checksum manifests
 - [x] Public visualizations
-- [x] Interactive Streamlit analytics dashboard (`app.py`)
+- [x] Institutional Streamlit terminal with 11 views (`app.py`)
+- [x] Plotly interactive visualization engine (`src/interactive_charts.py`)
+- [x] Macroeconomic What-If Stress Testing Lab (`src/stress_testing.py`)
+- [x] Company Factsheets with 5D radar benchmarks and health ratings
+- [x] Automated Executive Intelligence Briefing generator
 - [x] Executed public notebook
 - [x] Technical documentation
-- [x] Automated test suite (162 public tests passing)
+- [x] Automated test suite (170 public tests passing)
 - [x] Public continuous integration workflow (Python 3.12)
 - [x] Final repository audit and release preparation
 

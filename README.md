@@ -3,6 +3,7 @@
 **A reproducible corporate financial analytics pipeline for data quality, financial feature engineering and business screening.**
 
 [![Public pipeline tests](https://github.com/markusx5622/capexquant-sabi-castellon/actions/workflows/tests.yml/badge.svg)](https://github.com/markusx5622/capexquant-sabi-castellon/actions/workflows/tests.yml)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://capexquant.streamlit.app/)
 [![Release](https://img.shields.io/github/v/release/markusx5622/capexquant-sabi-castellon?color=blue)](https://github.com/markusx5622/capexquant-sabi-castellon/releases)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -13,13 +14,15 @@ CapexQuant SABI Castellón is a reproducible corporate financial analytics pipel
 
 This repository is designed for corporate finance analysts, data engineers and recruitment evaluators who require rigorous data lineage and reproducible methodologies when working with unstructured or proprietary corporate data. The public repository runs entirely on a deterministic synthetic dataset, ensuring complete reproducibility without redistributing confidential or licensed SABI records.
 
+> **Live Interactive Demo:** The Streamlit analytics dashboard is deployed and publicly accessible at **[capexquant.streamlit.app](https://capexquant.streamlit.app/)**.
+
 ## Project highlights
 
 - **Deterministic, auditable data pipeline:** Strict schema enforcement and multi-layer column validation with zero row loss and complete order preservation.
 - **Corporate financial feature engineering:** Safe division formulas for year-over-year revenue growth, EBITDA margin, and employee productivity metrics without distorted zero imputations.
 - **Separation of data-quality issues and business-risk signals:** Clear distinction between data integrity defects and valid economic distress conditions.
 - **Reproducible synthetic public dataset:** 120 fictional company records generated from a fixed random seed with verified SHA-256 checksums.
-- **Interactive Streamlit analytics dashboard:** Seven dedicated analytical views, dynamic filters, KPI scorecards and instant CSV/JSON exports.
+- **Interactive Streamlit analytics dashboard:** Eight dedicated analytical views, dynamic filters, KPI scorecards and instant CSV/JSON exports. Available live at [capexquant.streamlit.app](https://capexquant.streamlit.app/).
 - **Automated tests and GitHub Actions:** Comprehensive test suite with 162 public tests executed in Python 3.12 CI, alongside export manifests and standalone figures.
 
 ## Public demonstration
@@ -230,9 +233,13 @@ python -m pip install -r requirements.txt
 
 ### 4. Launch interactive Streamlit dashboard
 
+Launch locally:
+
 ```bash
 streamlit run app.py
 ```
+
+Or access the live deployment directly at: **[capexquant.streamlit.app](https://capexquant.streamlit.app/)**
 
 ### 5. Generate synthetic dataset
 
